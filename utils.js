@@ -45,4 +45,13 @@ const Utils = {
           return 'assets/css/img/default-user.png';
         }
       }
+    // 检测字符串中是否存在中文
+    isChina(str) { 
+      if(/[\u4e00-\u9fa5]+/.test(str))
+      { 
+        return false; 
+      } 
+        return true; 
+    }
 }
+export default Utils
