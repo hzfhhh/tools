@@ -1,6 +1,6 @@
 const Utils = {
     /**
-   *  [时间戳]
+   *  [时间戳1]
    * @param  {[type]} time [description]
    */
       formateTime (time, format) {
